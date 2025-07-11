@@ -41,6 +41,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Node.js
+node_modules/
+dist/
+
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
 
@@ -78,6 +82,19 @@ web_modules/
 .next
 out
 
+# prodction
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# env files
+.env*
+
+# vercel
+.vercel
+
 # Nuxt.js build / generate output
 .nuxt
 dist
@@ -94,6 +111,10 @@ dist
 # vuepress v2.x temp and cache directory
 .temp
 .cache
+
+# next.js
+/.next/
+/out/
 
 # Sveltekit cache directory
 .svelte-kit/
@@ -124,6 +145,12 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+
+# VS Code settings
+.vscode/
+
+# VS Code workspace storage
+.code-workspace
 
 # yarn v3
 .pnp.*
