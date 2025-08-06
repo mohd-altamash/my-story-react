@@ -1,12 +1,10 @@
 import './App.css'
+import HomePage from './components/HomePage'
 
 function App() {
-  const firstName = "Altamash"
-  const lastName = "Shaikh"
-
   return (
     <>
-      <h1>Hello {firstName} {lastName}</h1>
+      <HomePage />
     </>
   )
 }
