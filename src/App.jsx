@@ -1,12 +1,12 @@
 import './App.css'
+import Header from './components/Header'
+import MainContent from './components/MainContent'
 
 function App() {
-  const firstName = "Altamash"
-  const lastName = "Shaikh"
-
   return (
     <>
-      <h1>Hello {firstName} {lastName}</h1>
+      <Header />
+      <MainContent />
     </>
   )
 }
