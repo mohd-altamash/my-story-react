@@ -2,7 +2,7 @@ export default function Post(props) {
 
   return (
     <article className="media content-section">
-      <img className="rounded-circle article-img" src="/static/profile_pics/18f448c6f31c5a9d.jpg" />
+      <img className="rounded-circle article-img" src={props.profileImage} />
       <div className="media-body">
         <div className="article-metadata">
           <a className="mr-2" href="/user/Altamash">{props.userName}</a>
